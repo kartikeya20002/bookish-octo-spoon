@@ -1,0 +1,15 @@
+#include<stdio.h> // include stdio.h
+
+int main() 
+{
+    float fah, cel;
+
+    printf("Enter a temp in fah: \n");
+    scanf("%f", &fah);
+
+    cel = (5.0/9) * (fah - 32);
+
+    printf("%.2f°F is same as %.2f°C", fah, cel);
+
+    return 0;
+}
